@@ -2,6 +2,16 @@
 
 GameOfQR is a web-based project that brings Conway's Game of Life to life using QR codes as the initial state. Instead of manually drawing patterns or using pre-made seeds, this app allows users to either upload a QR code image or scan one directly using their device's camera. The black and white grid encoded in the QR code serves as the starting configuration for the Game of Life simulation.
 
+A live version of the app is available [here](https://gameofqr.iainfm.co.uk) for anyone wanting to try it.
+
+The app was vibe-coded in one attempt using Github Copilot. The prompt used was:
+
+> Build me a web app in javascript. The web app should allow the user to scan a QR code, interpret the QR code as a matrix of 1s and 0s, then use the resulting matrix to run a simulation of Conway's Game of Life.
+> 
+> The site should also allow the uploading of QR codes for users without a camera and for testing the app.
+> 
+> The app should be responsive so that it scales well to both desktop and mobile browsers.
+
 ## Features
 
 - **Upload QR Code**: Select an image file containing a valid QR code to generate the initial grid for the Game of Life.
